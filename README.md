@@ -3,9 +3,6 @@
 # Project Overview
 This is a system that lets you have intelligent conversations about video content. Think of it as a smart video assistant that can understand and answer questions about videos. The system uses a technique called Multimodal RAG (Retrieval-Augmented Generation) to process both visual and audio content from videos.
 
-## Certificate and Images
-- **Course Certificate**: View my completion certificate [here](https://learn.deeplearning.ai/accomplishments/12b98ae0-cf49-4aa6-bb0a-7431fa9232a7?usp=sharing)
-- **System Architecture**: ![Multimodal RAG System Architecture](Images/mm_rag.png)
 - **Web Interface**: ![Gradio Web Interface](Images/gradio_interface.png)
 
 # How It Works
@@ -65,7 +62,5 @@ mm_rag_chain = (
     | lvlm_inference_module
 )
 ```
-
-This system was created as part of a DeepLearning.AI course on Multimodal RAG systems, focusing on video content interaction.
 
 
